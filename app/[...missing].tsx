@@ -7,6 +7,9 @@ export default function NotFoundScreen() {
 	return (
 		<>
 			<Stack.Screen options={{ title: 'Pissos!' }} />
+
+
+
 			<View style={styles.container}>
 				<Text style={styles.title}>This screen doesn't exist.</Text>
 
@@ -14,6 +17,8 @@ export default function NotFoundScreen() {
 					<Text style={styles.linkText}>Go to home screen!</Text>
 				</Link>
 			</View>
+
+
 		</>
 	);
 }
