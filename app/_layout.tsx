@@ -28,7 +28,10 @@ export default function Layout() {
 			<Stack.Screen name="test1" options={{ headerTitle: "Testing", headerRight: () => <Button title="Open modal" onPress={() => router.push("/modal")} /> }} />
 
 
-				<Stack.Screen name="modal" options={{presentation: 'modal',   headerLeft: () => <Button title="Close" onPress={() => router.back()} />  }}  />
+			<Stack.Screen name="modal" options={{ presentation: 'modal', headerLeft: () => <Button title="Close" onPress={() => router.back()} /> }} />
+
+
+			<Stack.Screen name="(tabs)" options={{ headerShown: false }} />
 
 
 		</Stack>
