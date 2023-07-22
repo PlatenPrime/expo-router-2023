@@ -24,6 +24,19 @@ export default function AppLayout() {
 				}}
 			/>
 
+			<Tabs.Screen
+				// Name of the dynamic route.
+				name="list"
+				options={{
+					// Ensure the tab always links to the same href.
+					href: '/list',
+					tabBarLabel: "L",
+					headerTitle: "List Screen"
+				}}
+			/>
+
+
+
 
 
 
